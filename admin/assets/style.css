@@ -82,6 +82,15 @@ a:active, a:hover, a:focus {
   outline: 0 none;
   text-decoration: none;
 }
+.sparkline a:hover .sparkline a:focus-visible{
+ 
+    color: #2af010;
+    text-decoration: none;
+  }
+.png{
+    background-image:url('img/widgets/file.png');
+    height: 24px;
+}
 ul{
 list-style: outside none none;
 margin: 0;

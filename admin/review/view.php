@@ -1,4 +1,5 @@
 
+    
 	<!-- Breadcomb area Start-->
 	<div class="breadcomb-area">
 		<div class="container">
@@ -12,7 +13,7 @@
 										<i class="notika-icon notika-mail"></i>
 									</div>
 									<div class="breadcomb-ctn">
-										<h2>View In Progress</h2>
+										<h2>View Under Review</h2>
 										<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
 									</div>
 								</div>
@@ -177,104 +178,8 @@
                                 <div id="menu22" class="tab-pane fade">
                                     <div class="tab-ctn">
                                         <h4>Chats</h4>
-                                        <div class="chat-conversation">
-                                                    <div class="widgets-chat-scrollbar">
-                                                        <ul class="conversation-list">
-                                                            <li class="clearfix">
-                                                                <div class="chat-avatar">
-                                                                    <img src="../img/post/1.jpg" alt="male">
-                                                                    <i>10:00</i>
-                                                                </div>
-                                                                <div class="conversation-text">
-                                                                    <div class="ctext-wrap">
-                                                                        <p>
-                                                                            Hello!
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="clearfix odd">
-                                                                <div class="chat-avatar">
-                                                                    <img src="../img/post/2.jpg" alt="Female">
-                                                                    <i>10:01</i>
-                                                                </div>
-                                                                <div class="conversation-text">
-                                                                    <div class="ctext-wrap chat-widgets-cn">
-                                                                        <p>
-                                                                            Hi, How are you? What about our next meeting?
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="clearfix">
-                                                                <div class="chat-avatar">
-                                                                    <img src="../img/post/1.jpg" alt="male">
-                                                                    <i>10:01</i>
-                                                                </div>
-                                                                <div class="conversation-text">
-                                                                    <div class="ctext-wrap">
-                                                                        <p>
-                                                                            Yeah everything is fine
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="clearfix odd">
-                                                                <div class="chat-avatar">
-                                                                    <img src="../img/post/2.jpg" alt="male">
-                                                                    <i>10:02</i>
-                                                                </div>
-                                                                <div class="conversation-text">
-                                                                    <div class="ctext-wrap chat-widgets-cn">
-                                                                        <p>
-                                                                            Wow that's great
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="clearfix">
-                                                                <div class="chat-avatar">
-                                                                    <img src="../img/post/1.jpg" alt="male">
-                                                                    <i>10:01</i>
-                                                                </div>
-                                                                <div class="conversation-text">
-                                                                    <div class="ctext-wrap">
-                                                                        <p>
-                                                                            Doing Better i am thinking about that..
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                            <li class="clearfix odd">
-                                                                <div class="chat-avatar">
-                                                                    <img src="../img/post/2.jpg" alt="male">
-                                                                    <i>10:02</i>
-                                                                </div>
-                                                                <div class="conversation-text">
-                                                                    <div class="ctext-wrap chat-widgets-cn">
-                                                                        <p>
-                                                                            Wow, You also tallent man...
-                                                                        </p>
-                                                                    </div>
-                                                                </div>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="chat-widget-input">
-                                                        <div class="row">
-                                                            <div class="col-sm-12 col-md-12 col-sm-12 col-xs-12 chat-inputbar">
-                                                                <div class="form-group todo-flex">
-                                                                    <div class="nk-int-st">
-                                                                        <input type="text" class="form-control chat-input" placeholder="Enter your text">
-                                                                    </div>
-                                                                    <div class="chat-send">
-                                                                        <button type="submit" class="btn btn-md btn-primary btn-block notika-chat-btn">Send</button>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                        <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nulla sit amet est. Praesent ac the massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl. Nulla porta dolor. Cras dapibus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                                        <p class="tab-mg-b-0">In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam eget dui. In ac felis quis tortor malesuadan of pretium. Phasellus consectetuer vestibulum elit. Duis lobortis massa imperdiet quam. Pellentesque commodo eros a enim. Vestibulum ante ipsum primis in faucibus orci the luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Phasellus a est. Pellentesque commodo eros a enim. Cras ultricies mi eu turpis hendrerit of fringilla. Donec mollis hendrerit risus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Praesent egestas neque eu enim. In hac habitasse plat.</p>
                                     </div>
                                 </div>
                             </div>
@@ -305,4 +210,3 @@
         </div>
     </div>
     <!-- Inbox area End-->
-   

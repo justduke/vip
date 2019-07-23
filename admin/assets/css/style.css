@@ -82,6 +82,15 @@ a:active, a:hover, a:focus {
   outline: 0 none;
   text-decoration: none;
 }
+.sparkline a:hover .sparkline a:focus-visible{
+ 
+    color: #2af010;
+    text-decoration: none;
+  }
+.png{
+    background-image:url('img/widgets/file.png');
+    height: 24px;
+}
 ul{
 list-style: outside none none;
 margin: 0;
@@ -2598,7 +2607,7 @@ hr {
 .table.table-hover>tbody>tr>td, .table.table-hover>tbody>tr>th, .table.table-hover>tfoot>tr>td, .table.table-hover>tfoot>tr>th, .table.table-hover>thead>tr>td, .table.table-hover>thead>tr>th{
 	border-top: 1px solid #F5F5F5;
 	font-size:14px;
-	color:#333;
+	color:rgba(3, 6, 206, 0.541);
 	padding:15px 15px;
 }
 .table.table-condensed>tbody>tr>td, .table.table-condensed>tbody>tr>th, .table.table-condensed>tfoot>tr>td, .table.table-condensed>tfoot>tr>th, .table.table-condensed>thead>tr>td, .table.table-condensed>thead>tr>th{
@@ -2623,7 +2632,7 @@ hr {
     border-bottom: 0px solid #ddd;
 }
 .table.table-hover>thead>tr>th {
-    border-bottom: 0px solid #ddd;
+    border-bottom: 0px solid rgba(26, 2, 2, 0.835);
 }
 .table.table-condensed>thead>tr>th {
     border-bottom: 0px solid #ddd;
