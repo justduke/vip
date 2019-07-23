@@ -309,7 +309,7 @@
                     <div class="recent-post-wrapper notika-shadow sm-res-mg-t-30 tb-res-ds-n dk-res-ds">
                         <div class="recent-post-ctn">
                             <div class="recent-post-title">
-                                <h2>Recent Posts</h2>
+                                <h2>Admin Desktop</h2>
                             </div>
                         </div>
                         <div class="recent-post-items">
@@ -395,43 +395,79 @@
                         <div class="rc-it-ltd">
                             <div class="recent-items-ctn">
                                 <div class="recent-items-title">
-                                    <h2>Recent Items</h2>
+                                    <h2>Admin Desktop</h2>
                                 </div>
                             </div>
                             <div class="recent-items-inn">
                                 <table class="table table-inner table-vmiddle">
                                     <thead>
                                         <tr>
-                                            <th>ID</th>
-                                            <th>Name</th>
-                                            <th style="width: 60px">Price</th>
+                                            <th></th>
+                                            <th></th>
+                                            <th ></th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    <tbody class="button-icon-btn">
                                         <tr>
-                                            <td class="f-500 c-cyan">4555</td>
-                                            <td>Samsung Galaxy Mega</td>
-                                            <td class="f-500 c-cyan">$921</td>
+                                            <?php if(isset($_GET['mail'])){?>
+                                            <td class="f-500 c-cyan">
+                                           <a href="index.php?mail">  <button class="btn btn-primary primary-icon-notika "><i class="notika-icon notika-mail"></i> Mailing </button></a>
+                                            </td>
+                                            <?php }
+                                             else{
+                                                ?>
+                                            <td class="f-500 c-cyan">
+                                           <a href="index.php?mail">  <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-mail"></i> Mailing </button></a>
+                                            </td>
+                                            <?php }?>
+                                           
+                                            <?php if(isset($_GET['qa'])){?>
+                                            <td class="f-500 c-cyan">
+                                           <a href="index.php?qa">  <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-chat"></i>Q & A</button></a>
+                                            </td>
+                                            <?php }
+                                             else{
+                                                ?>
+                                            <td class="f-500 c-cyan">
+                                           <a href="index.php?qa">   <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-chat"></i>Q & A</button></a>
+                                            </td>
+                                            <?php }?>
+
+                                            <?php if(isset($_GET['o-placement'])){?>
+                                            <td class="f-500 c-cyan">
+                                           <a href="index.php?o-placement">  <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-support"></i>O-Placement</button></a>
+                                            </td>
+                                            <?php }
+                                             else{
+                                                ?>
+                                            <td class="f-500 c-cyan">
+                                           <a href="index.php?o-placement">  <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-support"></i>O-Placement</button></a>
+                                            </td>
+                                            <?php }?>
+
+
+                                                 <td class="f-500 c-cyan"><button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-support"></i>O-Placement</button></td>
                                         </tr>
                                         <tr>
-                                            <td class="f-500 c-cyan">4556</td>
-                                            <td>Huawei Ascend P6</td>
-                                            <td class="f-500 c-cyan">$240</td>
+                                            <td class="f-500 c-cyan">
+                                            <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-house"></i> Home</button>
+                                            </td>
+                                            <td> <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-search"></i> Search</button></td>
+                                            <td class="f-500 c-cyan"><button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-menu"></i> More</button></td>
                                         </tr>
                                         <tr>
-                                            <td class="f-500 c-cyan">8778</td>
-                                            <td>HTC One M8</td>
-                                            <td class="f-500 c-cyan">$400</td>
+                                            <td class="f-500 c-cyan">
+                                            <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-house"></i> Home</button>
+                                            </td>
+                                            <td> <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-search"></i> Search</button></td>
+                                            <td class="f-500 c-cyan"><button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-menu"></i> More</button></td>
                                         </tr>
                                         <tr>
-                                            <td class="f-500 c-cyan">5667</td>
-                                            <td>Samsung Galaxy Alpha</td>
-                                            <td class="f-500 c-cyan">$870</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="f-500 c-cyan">7886</td>
-                                            <td>LG G3</td>
-                                            <td class="f-500 c-cyan">$790</td>
+                                            <td class="f-500 c-cyan">
+                                            <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-house"></i> Home</button>
+                                            </td>
+                                            <td> <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-search"></i> Search</button></td>
+                                            <td class="f-500 c-cyan"><button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-menu"></i> More</button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -444,232 +480,6 @@
         </div>
     </div>
     <!-- End Email Statistic area-->
-    <!-- Start Realtime sts area-->
-    <div class="realtime-statistic-area">
-        <div class="container" id="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="realtime-wrap notika-shadow mg-t-30">
-                        <div class="realtime-ctn">
-                            <div class="realtime-title">
-                                <h2>Realtime Visitors</h2>
-                            </div>
-                        </div>
-                        <div class="realtime-visitor-ctn">
-                            <div class="realtime-vst-sg">
-                                <h4><span class="counter">4,35,456</span></h4>
-                                <p>Visitors last 24h</p>
-                            </div>
-                            <div class="realtime-vst-sg">
-                                <h4><span class="counter">4,566</span></h4>
-                                <p>Visitors last 30m</p>
-                            </div>
-                        </div>
-                        <div class="realtime-map">
-                            <div class="vectorjsmarp" id="world-map"></div>
-                        </div>
-                        <div class="realtime-country-ctn realtime-ltd-mg">
-                            <h5>September 4, 21:44:02 (2 Mins 56 Seconds)</h5>
-                            <div class="realtime-ctn-bw">
-                                <div class="realtime-ctn-st">
-                                    <span><img src="../img/country/1.png" alt="" /></span> <span>United States</span>
-                                </div>
-                                <div class="realtime-bw">
-                                    <span>Firefox</span>
-                                </div>
-                                <div class="realtime-bw">
-                                    <span>Mac OSX</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="realtime-country-ctn">
-                            <h5>September 7, 20:44:02 (5 Mins 56 Seconds)</h5>
-                            <div class="realtime-ctn-bw">
-                                <div class="realtime-ctn-st">
-                                    <span><img src="../img/country/2.png" alt="" /></span> <span>Australia</span>
-                                </div>
-                                <div class="realtime-bw">
-                                    <span>Firefox</span>
-                                </div>
-                                <div class="realtime-bw">
-                                    <span>Mac OSX</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="realtime-country-ctn">
-                            <h5>September 9, 19:44:02 (10 Mins 56 Seconds)</h5>
-                            <div class="realtime-ctn-bw">
-                                <div class="realtime-ctn-st">
-                                    <span><img src="../img/country/3.png" alt="" /></span> <span>Brazil</span>
-                                </div>
-                                <div class="realtime-bw">
-                                    <span>Firefox</span>
-                                </div>
-                                <div class="realtime-bw">
-                                    <span>Mac OSX</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="add-todo-list notika-shadow mg-t-30">
-                        <div class="realtime-ctn">
-                            <div class="realtime-title">
-                                <h2>My Todo List</h2>
-                            </div>
-                        </div>
-                        <div class="card-box">
-                            <div class="todoapp">
-                                <div class="row">
-                                    <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
-                                        <h4 id="todo-message"><span id="todo-remaining"></span> of <span id="todo-total"></span> remaining</h4>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6 col-sm-6 col-xs-12">
-                                        <div class="notika-todo-btn">
-                                            <a href="#" class="pull-right btn btn-primary btn-sm" id="btn-archive">Archive</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="notika-todo-scrollbar">
-                                    <ul class="list-group no-margn todo-list" id="todo-list"></ul>
-                                </div>
-                                <div id="todo-form">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-12 col-sm-12 col-xs-12 todo-inputbar">
-                                            <div class="form-group todo-flex">
-                                                <div class="nk-int-st">
-                                                    <input type="text" id="todo-input-text" name="todo-input-text" class="form-control" placeholder="Add new todo">
-                                                </div>
-                                                <div class="todo-send">
-                                                    <button class="btn-primary btn-md btn-block btn notika-add-todo" type="button" id="todo-btn-submit">Add</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                    <div class="notika-chat-list notika-shadow mg-t-30 tb-res-ds-n dk-res-ds">
-                        <div class="realtime-ctn">
-                            <div class="realtime-title">
-                                <h2>Chat Box</h2>
-                            </div>
-                        </div>
-                        <div class="card-box">
-                            <div class="chat-conversation">
-                                <div class="widgets-chat-scrollbar">
-                                    <ul class="conversation-list">
-                                        <li class="clearfix">
-                                            <div class="chat-avatar">
-                                                <img src="../img/post/1.jpg" alt="male">
-                                                <i>10:00</i>
-                                            </div>
-                                            <div class="conversation-text">
-                                                <div class="ctext-wrap">
-                                                    <i>John Deo</i>
-                                                    <p>
-                                                        Hello!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix odd">
-                                            <div class="chat-avatar">
-                                                <img src="../img/post/2.jpg" alt="Female">
-                                                <i>10:01</i>
-                                            </div>
-                                            <div class="conversation-text">
-                                                <div class="ctext-wrap chat-widgets-cn">
-                                                    <i>Smith</i>
-                                                    <p>
-                                                        Hi, How are you? What about our next meeting?
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix">
-                                            <div class="chat-avatar">
-                                                <img src="../img/post/1.jpg" alt="male">
-                                                <i>10:01</i>
-                                            </div>
-                                            <div class="conversation-text">
-                                                <div class="ctext-wrap">
-                                                    <i>John Deo</i>
-                                                    <p>
-                                                        Yeah everything is fine
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix odd">
-                                            <div class="chat-avatar">
-                                                <img src="../img/post/2.jpg" alt="male">
-                                                <i>10:02</i>
-                                            </div>
-                                            <div class="conversation-text">
-                                                <div class="ctext-wrap chat-widgets-cn">
-                                                    <i>Smith</i>
-                                                    <p>
-                                                        Wow that's great
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix">
-                                            <div class="chat-avatar">
-                                                <img src="../img/post/1.jpg" alt="male">
-                                                <i>10:01</i>
-                                            </div>
-                                            <div class="conversation-text">
-                                                <div class="ctext-wrap">
-                                                    <i>John Deo</i>
-                                                    <p>
-                                                        Doing Better i am thinking about that..
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="clearfix odd">
-                                            <div class="chat-avatar">
-                                                <img src="../img/post/2.jpg" alt="male">
-                                                <i>10:02</i>
-                                            </div>
-                                            <div class="conversation-text">
-                                                <div class="ctext-wrap chat-widgets-cn">
-                                                    <i>Smith</i>
-                                                    <p>
-                                                        Wow, You also tallent man...
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="chat-widget-input">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-12 col-sm-12 col-xs-12 chat-inputbar">
-                                            <div class="form-group todo-flex">
-                                                <div class="nk-int-st">
-                                                    <input type="text" class="form-control chat-input" placeholder="Enter your text">
-                                                </div>
-                                                <div class="chat-send">
-                                                    <button type="submit" class="btn btn-md btn-primary btn-block notika-chat-btn">Send</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Realtime sts area-->
+    
     
    

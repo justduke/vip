@@ -38,12 +38,6 @@ elseif(isset($_GET['compose'])){
 elseif(isset($_GET['viewmail'])){
     include'mail/view-mail.php';
 }
-elseif(isset($_GET['qa'])){
-    include'QA/qa.php';
-}
-elseif(isset($_GET['o-placement'])){
-    include'placement.php';
-}
 else{
     include'home.php';
 }

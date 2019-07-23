@@ -30,6 +30,15 @@
     <!-- animate CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- summernote CSS
+		============================================ -->
+        <link rel="stylesheet" href="assets/css/summernote/summernote.css">
+    <!-- dropzone CSS
+		============================================ -->
+        <link rel="stylesheet" href="assets/css/dropzone/dropzone.css">
+         <!-- Range Slider CSS
+		============================================ -->
+    <link rel="stylesheet" href="assets/css/themesaller-forms.css">
     <!-- normalize CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/normalize.css">
@@ -42,15 +51,27 @@
     <!-- notika icon CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/notika-custom-icon.css">
+    <!-- bootstrap select CSS
+		============================================ -->
+        <link rel="stylesheet" href="assets/css/bootstrap-select/bootstrap-select.css">
     <!-- wave CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/wave/waves.min.css">
+     <!-- datapicker CSS
+		============================================ -->
+        <link rel="stylesheet" href="assets/css/datapicker/datepicker3.css">
     <!-- main CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/main.css">
+     <!-- main CSS
+		============================================ -->
+        <link rel="stylesheet" href="assets/css/chosen/chosen.css">
     <!-- style CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/style.css">
+    <!-- notification CSS
+		============================================ -->
+        <link rel="stylesheet" href="assets/css/notification/notification.css">
     
     <!-- responsive CSS
 		============================================ -->
