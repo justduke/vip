@@ -1,11 +1,4 @@
 
-<?php
- require'header.php';
-
- require'menu.php';
-
-?>
-   
 	<!-- Breadcomb area Start-->
 	<div class="breadcomb-area">
 		<div class="container">
@@ -19,7 +12,7 @@
 										<i class="notika-icon "><img src="../img/widgets/file.png" width="40px"></i>
 									</div>
 									<div class="breadcomb-ctn">
-										<h2>Orders In Progress</h2>
+										<h2>Reassigned Orders</h2>
 										<p>Users orders</p>
 									</div>
 								</div>
@@ -40,7 +33,10 @@
     <div class="data-table-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                   <?php include'sidebar.php';?>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                     <div class="data-table-list">
                         <div class="basic-tb-hd">
                            
@@ -534,20 +530,7 @@
         </div>
     </div>
     <!-- Data Table area End-->
-    <!-- Start Footer area-->
-    <div class="footer-copyright-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="footer-copy-right">
-                        <p>Copyright © 2018 
-. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Footer area-->
+    
     <!-- jquery
 		============================================ -->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
