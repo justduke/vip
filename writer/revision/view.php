@@ -13,7 +13,7 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>View In Progress</h2>
-										<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+										<p>Welcome, Stephen Kagecha</p>
 									</div>
 								</div>
 							</div>

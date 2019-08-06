@@ -56,7 +56,10 @@
 /*----------------------------------------*/
 html, body {font-family: 'Roboto', sans-serif;font-weight:400;}
 body {
-    background-image: linear-gradient(to right top, #0a2348, #081d3e, #071635, #060f2c, #020423);
+    /* background-image: linear-gradient(to right top, #0a2348, #081d3e, #071635, #060f2c, #020423); */
+    background-attachment:fixed; background-image:url('assets/img/blog/linen.jpg');
+    
+
 }
 
 
@@ -799,6 +802,7 @@ ul.notika-menu-wrap li a{
 }
 .realtime-map {
     margin: 28px 0px;
+    width: 600px;
 }
 /*----------------------------------------*/
 /*  11.  Footer CSS
@@ -1382,6 +1386,25 @@ ul.tab-ctn-list li:last-child{
 .alert-hd{
 	margin-bottom:20px;
 }
+.btn-vip{
+    color: white;
+    background-color: #00c292;
+    border-bottom-color: #3F51B5;
+    border-radius: 35px;
+    border-color: #020423;
+    margin-top: 20px;
+
+}
+.btn-vip-danger{
+    color: white;
+    background-color: red;
+    border-bottom-color: #3F51B5;
+    border-radius: 35px;
+    border-color: #020423;
+    margin-top: 20px;
+
+}
+
 /*----------------------------------------*/
 /*  20.  color CSS
 /*----------------------------------------*/
@@ -1529,6 +1552,7 @@ ul.wizard-nav-ac li .disabled{
 }
 .dropdown-trig-sing .dropdown-menu>li>a:focus, .dropdown-trig-sing .dropdown-menu>li>a:hover {
     background-color: rgba(0,0,0,.075);
+    background-color: #F7F7F7;
 }
 .dropdown-trig-sing .dropdown-menu li a{
 	font-size:14px;

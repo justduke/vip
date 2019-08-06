@@ -131,7 +131,7 @@
     <!-- End Sale Statistic area-->
 <br>
     <!-- Start Status area -->
-    <div class="notika-status-area">
+    <div class="notika-status-area " >
         <div class="container" id="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">

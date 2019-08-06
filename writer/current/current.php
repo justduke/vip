@@ -13,7 +13,7 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>Current ordes</h2>
-										<p>Users orders</p>
+										<p>Welcome, Stephen Kagecha</p>
 									</div>
 								</div>
 							</div>
