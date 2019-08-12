@@ -110,7 +110,7 @@
                                         <td class="">
                                             <label><input type="checkbox" checked="" class="i-checks"></label>
                                         </td>
-                                        <td><a href="#">Ivor Rios</a> <span class="label label-info">Social</span>
+                                        <td><a href="#">Ivor Rios</a> <span class="label label-info">Support</span>
                                         </td>
                                         <td><a href="#">Sed quis augue in nunc venenatis finibus.</a></td>
                                         <td><i class="notika-icon notika-paperclip"></i></td>

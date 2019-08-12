@@ -22,7 +22,7 @@
 
                                 <ul class="nav navbar-nav notika-top-nav">
                                 <li class="nav-item dropdown">      
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><span class="label label-warning notika-icon notika-sent">Order</span></a>
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><span class="label label-warning notika-icon notika-sent"> Order</span></a>
                                 <div role="menu" class="dropdown-menu message-dd animated zoomIn">
                                 <div class="hd-mg-tt">
                                     <h4>Notifs</h4>
@@ -56,7 +56,7 @@
                                  </li>
 
                                  <li class="dropdown">      
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span> <span class="label label-success notika-icon notika-support">Social</span></a>
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span> <span class="label label-success notika-icon notika-mail"> Support</span></a>
                                 <div role="menu" class="dropdown-menu message-dd animated zoomIn">
                                 <div class="hd-mg-tt">
                                     <h4>Notifs</h4>
@@ -90,7 +90,7 @@
                                  </li>
 
                                  <li class="dropdown">      
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span> <span  class="label label-info notika-icon  notika-credit-card">Finance</span></a>
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span> <span  class="label label-info notika-icon  notika-credit-card"> Finance</span></a>
                                 <div role="menu" class="dropdown-menu message-dd animated zoomIn">
                                     <div class="hd-mg-tt">
                                     <h4>Notifs</h4>

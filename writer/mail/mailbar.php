@@ -30,7 +30,7 @@
                             <ul class="inbox-st-nav">
                                 
                                 <li><a href="#"><i class="notika-icon notika-finance"></i> Finance</a></li>
-                                <li><a href="#"><i class="notika-icon notika-social"></i> Social</a></li>
+                                <li><a href="#"><i class="notika-icon notika-social"></i> Support</a></li>
                                 <li><a href="#"><i class="notika-icon notika-promos"></i> Order</a></li>
                                 
                             </ul>
