@@ -1,250 +1,72 @@
-<?php require'header.php';?>
-    <!-- Mobile Menu start -->
-    <div class="mobile-menu-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="mobile-menu">
-                        <nav id="dropdown">
-                            <ul class="mobile-menu-nav">
-                                <li><a data-toggle="collapse" data-target="#Charts" href="#">Home</a>
-                                    <ul class="collapse dropdown-header-top">
-                                        <li><a href="index.html">Dashboard One</a></li>
-                                        <li><a href="index-2.html">Dashboard Two</a></li>
-                                        <li><a href="index-3.html">Dashboard Three</a></li>
-                                        <li><a href="index-4.html">Dashboard Four</a></li>
-                                        <li><a href="analytics.html">Analytics</a></li>
-                                        <li><a href="widgets.html">Widgets</a></li>
-                                    </ul>
-                                </li>
-                                <li><a data-toggle="collapse" data-target="#demoevent" href="#">Email</a>
-                                    <ul id="demoevent" class="collapse dropdown-header-top">
-                                        <li><a href="inbox.html">Inbox</a></li>
-                                        <li><a href="view-email.html">View Email</a></li>
-                                        <li><a href="compose-email.html">Compose Email</a></li>
-                                    </ul>
-                                </li>
-                                <li><a data-toggle="collapse" data-target="#democrou" href="#">Interface</a>
-                                    <ul id="democrou" class="collapse dropdown-header-top">
-                                        <li><a href="animations.html">Animations</a></li>
-                                        <li><a href="google-map.html">Google Map</a></li>
-                                        <li><a href="data-map.html">Data Maps</a></li>
-                                        <li><a href="code-editor.html">Code Editor</a></li>
-                                        <li><a href="image-cropper.html">Images Cropper</a></li>
-                                        <li><a href="wizard.html">Wizard</a></li>
-                                    </ul>
-                                </li>
-                                <li><a data-toggle="collapse" data-target="#demolibra" href="#">Charts</a>
-                                    <ul id="demolibra" class="collapse dropdown-header-top">
-                                        <li><a href="flot-charts.html">Flot Charts</a></li>
-                                        <li><a href="bar-charts.html">Bar Charts</a></li>
-                                        <li><a href="line-charts.html">Line Charts</a></li>
-                                        <li><a href="area-charts.html">Area Charts</a></li>
-                                    </ul>
-                                </li>
-                                <li><a data-toggle="collapse" data-target="#demodepart" href="#">Tables</a>
-                                    <ul id="demodepart" class="collapse dropdown-header-top">
-                                        <li><a href="normal-table.html">Normal Table</a></li>
-                                        <li><a href="data-table.html">Data Table</a></li>
-                                    </ul>
-                                </li>
-                                <li><a data-toggle="collapse" data-target="#demo" href="#">Forms</a>
-                                    <ul id="demo" class="collapse dropdown-header-top">
-                                        <li><a href="form-elements.html">Form Elements</a></li>
-                                        <li><a href="form-components.html">Form Components</a></li>
-                                        <li><a href="form-examples.html">Form Examples</a></li>
-                                    </ul>
-                                </li>
-                                <li><a data-toggle="collapse" data-target="#Miscellaneousmob" href="#">App views</a>
-                                    <ul id="Miscellaneousmob" class="collapse dropdown-header-top">
-                                        <li><a href="notification.html">Notifications</a>
-                                        </li>
-                                        <li><a href="alert.html">Alerts</a>
-                                        </li>
-                                        <li><a href="modals.html">Modals</a>
-                                        </li>
-                                        <li><a href="buttons.html">Buttons</a>
-                                        </li>
-                                        <li><a href="tabs.html">Tabs</a>
-                                        </li>
-                                        <li><a href="accordion.html">Accordion</a>
-                                        </li>
-                                        <li><a href="dialog.html">Dialogs</a>
-                                        </li>
-                                        <li><a href="popovers.html">Popovers</a>
-                                        </li>
-                                        <li><a href="tooltips.html">Tooltips</a>
-                                        </li>
-                                        <li><a href="dropdown.html">Dropdowns</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a data-toggle="collapse" data-target="#Pagemob" href="#">Pages</a>
-                                    <ul id="Pagemob" class="collapse dropdown-header-top">
-                                        <li><a href="contact.html">Contact</a>
-                                        </li>
-                                        <li><a href="invoice.html">Invoice</a>
-                                        </li>
-                                        <li><a href="typography.html">Typography</a>
-                                        </li>
-                                        <li><a href="color.html">Color</a>
-                                        </li>
-                                        <li><a href="login-register.html">Login Register</a>
-                                        </li>
-                                        <li><a href="404.html">404 Page</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Mobile Menu end -->
-    <!-- Main Menu area start-->
-    <div class="main-menu-area mg-tb-40">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
-                        <li><a data-toggle="tab" href="#Home"><i class="notika-icon notika-house"></i> Home</a>
-                        </li>
-                        <li class="active"><a data-toggle="tab" href="#mailbox"><i class="notika-icon notika-mail"></i> Email</a>
-                        </li>
-                        <li><a data-toggle="tab" href="#Interface"><i class="notika-icon notika-edit"></i> Interface</a>
-                        </li>
-                        <li><a data-toggle="tab" href="#Charts"><i class="notika-icon notika-bar-chart"></i> Charts</a>
-                        </li>
-                        <li><a data-toggle="tab" href="#Tables"><i class="notika-icon notika-windows"></i> Tables</a>
-                        </li>
-                        <li><a data-toggle="tab" href="#Forms"><i class="notika-icon notika-form"></i> Forms</a>
-                        </li>
-                        <li><a data-toggle="tab" href="#Appviews"><i class="notika-icon notika-app"></i> App views</a>
-                        </li>
-                        <li><a data-toggle="tab" href="#Page"><i class="notika-icon notika-support"></i> Pages</a>
-                        </li>
-                    </ul>
-                    <div class="tab-content custom-menu-content">
-                        <div id="Home" class="tab-pane in notika-tab-menu-bg animated flipInX">
-                            <ul class="notika-main-menu-dropdown">
-                                <li><a href="index.html">Dashboard One</a>
-                                </li>
-                                <li><a href="index-2.html">Dashboard Two</a>
-                                </li>
-                                <li><a href="index-3.html">Dashboard Three</a>
-                                </li>
-                                <li><a href="index-4.html">Dashboard Four</a>
-                                </li>
-                                <li><a href="analytics.html">Analytics</a>
-                                </li>
-                                <li><a href="widgets.html">Widgets</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="mailbox" class="tab-pane active notika-tab-menu-bg animated flipInX">
-                            <ul class="notika-main-menu-dropdown">
-                                <li><a href="inbox.html">Inbox</a>
-                                </li>
-                                <li><a href="view-email.html">View Email</a>
-                                </li>
-                                <li><a href="compose-email.html">Compose Email</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="Interface" class="tab-pane notika-tab-menu-bg animated flipInX">
-                            <ul class="notika-main-menu-dropdown">
-                                <li><a href="animations.html">Animations</a>
-                                </li>
-                                <li><a href="google-map.html">Google Map</a>
-                                </li>
-                                <li><a href="data-map.html">Data Maps</a>
-                                </li>
-                                <li><a href="code-editor.html">Code Editor</a>
-                                </li>
-                                <li><a href="image-cropper.html">Images Cropper</a>
-                                </li>
-                                <li><a href="wizard.html">Wizard</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="Charts" class="tab-pane notika-tab-menu-bg animated flipInX">
-                            <ul class="notika-main-menu-dropdown">
-                                <li><a href="flot-charts.html">Flot Charts</a>
-                                </li>
-                                <li><a href="bar-charts.html">Bar Charts</a>
-                                </li>
-                                <li><a href="line-charts.html">Line Charts</a>
-                                </li>
-                                <li><a href="area-charts.html">Area Charts</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="Tables" class="tab-pane notika-tab-menu-bg animated flipInX">
-                            <ul class="notika-main-menu-dropdown">
-                                <li><a href="normal-table.html">Normal Table</a>
-                                </li>
-                                <li><a href="data-table.html">Data Table</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="Forms" class="tab-pane notika-tab-menu-bg animated flipInX">
-                            <ul class="notika-main-menu-dropdown">
-                                <li><a href="form-elements.html">Form Elements</a>
-                                </li>
-                                <li><a href="form-components.html">Form Components</a>
-                                </li>
-                                <li><a href="form-examples.html">Form Examples</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="Appviews" class="tab-pane notika-tab-menu-bg animated flipInX">
-                            <ul class="notika-main-menu-dropdown">
-                                <li><a href="notification.html">Notifications</a>
-                                </li>
-                                <li><a href="alert.html">Alerts</a>
-                                </li>
-                                <li><a href="modals.html">Modals</a>
-                                </li>
-                                <li><a href="buttons.html">Buttons</a>
-                                </li>
-                                <li><a href="tabs.html">Tabs</a>
-                                </li>
-                                <li><a href="accordion.html">Accordion</a>
-                                </li>
-                                <li><a href="dialog.html">Dialogs</a>
-                                </li>
-                                <li><a href="popovers.html">Popovers</a>
-                                </li>
-                                <li><a href="tooltips.html">Tooltips</a>
-                                </li>
-                                <li><a href="dropdown.html">Dropdowns</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="Page" class="tab-pane notika-tab-menu-bg animated flipInX">
-                            <ul class="notika-main-menu-dropdown">
-                                <li><a href="contact.html">Contact</a>
-                                </li>
-                                <li><a href="invoice.html">Invoice</a>
-                                </li>
-                                <li><a href="typography.html">Typography</a>
-                                </li>
-                                <li><a href="color.html">Color</a>
-                                </li>
-                                <li><a href="login-register.html">Login Register</a>
-                                </li>
-                                <li><a href="404.html">404 Page</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Main Menu area End-->
+
+    <!-- jquery
+		============================================ -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+		============================================ -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- wow JS
+		============================================ -->
+    <script src="js/wow.min.js"></script>
+    <!-- price-slider JS
+		============================================ -->
+    <script src="js/jquery-price-slider.js"></script>
+    <!-- owl.carousel JS
+		============================================ -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- scrollUp JS
+		============================================ -->
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <!-- meanmenu JS
+		============================================ -->
+    <script src="js/meanmenu/jquery.meanmenu.js"></script>
+    <!-- counterup JS
+		============================================ -->
+    <script src="js/counterup/jquery.counterup.min.js"></script>
+    <script src="js/counterup/waypoints.min.js"></script>
+    <script src="js/counterup/counterup-active.js"></script>
+    <!-- mCustomScrollbar JS
+		============================================ -->
+    <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- sparkline JS
+		============================================ -->
+    <script src="js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="js/sparkline/sparkline-active.js"></script>
+    <!-- flot JS
+		============================================ -->
+    <script src="js/flot/jquery.flot.js"></script>
+    <script src="js/flot/jquery.flot.resize.js"></script>
+    <script src="js/flot/flot-active.js"></script>
+    <!-- knob JS
+		============================================ -->
+    <script src="js/knob/jquery.knob.js"></script>
+    <script src="js/knob/jquery.appear.js"></script>
+    <script src="js/knob/knob-active.js"></script>
+    <!--  wave JS
+		============================================ -->
+    <script src="js/wave/waves.min.js"></script>
+    <script src="js/wave/wave-active.js"></script>
+    <!--  Chat JS
+		============================================ -->
+    <script src="js/dialog/sweetalert2.min.js"></script>
+    <script src="js/dialog/dialog-active.js"></script>
+    <!--  Chat JS
+		============================================ -->
+    <script src="js/chat/jquery.chat.js"></script>
+    <!--  todo JS
+		============================================ -->
+    <script src="js/todo/jquery.todo.js"></script>
+    <!-- plugins JS
+		============================================ -->
+    <script src="js/plugins.js"></script>
+    <!-- main JS
+		============================================ -->
+    <script src="js/main.js"></script>
+	<!-- tawk chat JS
+		============================================ -->
+    <script src="js/tawk-chat.js"></script>
+
+
 	<!-- Breadcomb area Start-->
 	<div class="breadcomb-area">
 		<div class="container">
@@ -258,8 +80,8 @@
 										<i class="notika-icon notika-mail"></i>
 									</div>
 									<div class="breadcomb-ctn">
-										<h2>View Email</h2>
-										<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+										<h2>View Order</h2>
+										<p>User: Stephen Kagecha</p>
 									</div>
 								</div>
 							</div>
@@ -282,34 +104,37 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="inbox-left-sd">
 						<div class="compose-ml">
-                            <a class="btn" href="#">Compose</a>
+                            <a class="btn" href="#">Operations </a>
                         </div>
                         <div class="inbox-status">
                             <ul class="inbox-st-nav inbox-ft">
-                                <li><a href="#"><i class="notika-icon notika-mail"></i> Inbox<span class="pull-right">12</span></a></li>
-                                <li><a href="#"><i class="notika-icon notika-sent"></i> Sent</a></li>
-                                <li><a href="#"><i class="notika-icon notika-draft"></i> Draft</a></li>
-                                <li><a href="#"><i class="notika-icon notika-trash"></i> Trash</a></li>
+                                <li><a href="#"><i class="notika-icon notika-draft"></i> Place Bid<span class="pull-right">12</span></a></li>
+                                <li><a href="#"><i class="notika-icon notika-mail"></i> Query</a></li>
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <div class="dialog-inner mg-t-30">
+                                    <div class="contact-hd dialog-hd">
+                                        <h2>Dialog passing a parameter</h2>
+                                        
+                                    </div>
+                                    <div class="dialog-pro dialog">
+                                        <button class="btn btn-info" id="sa-params">Click me</button>
+                                    </div>
+                                </div>
+                            </div>
                             </ul>
+                            
                         </div>
                         <hr>
-                        <div class="inbox-status">
-                            <ul class="inbox-st-nav">
-                                <li><a href="#"><i class="notika-icon notika-travel"></i> Travel</a></li>
-                                <li><a href="#"><i class="notika-icon notika-finance"></i> Finance</a></li>
-                                <li><a href="#"><i class="notika-icon notika-social"></i> Social</a></li>
-                                <li><a href="#"><i class="notika-icon notika-promos"></i> Promos</a></li>
-                                <li><a href="#"><i class="notika-icon notika-flag"></i> Updates</a></li>
-                            </ul>
-                        </div>
-                        <hr>
+                        
                         <div class="inbox-status">
                             <ul class="inbox-st-nav inbox-nav-mg">
-                                <li><a href="#"><i class="notika-icon notika-chat"></i> Forum</a></li>
-                                <li><a href="#"><i class="notika-icon notika-chat"></i> Chat</a></li>
-                                <li><a href="#"><i class="notika-icon notika-chat"></i> Work</a></li>
-                                <li><a href="#"><i class="notika-icon notika-settings"></i> Settings</a></li>
-                                <li><a href="#"><i class="notika-icon notika-support"></i> Support</a></li>
+                            <div class="vw-ml-action-ls text-right mg-t-20">
+                            <div class="btn-group ib-btn-gp active-hook nk-email-inbox">
+                             
+                               <a href="index.php?index"> <button class="btn btn-default btn-sm waves-effect"><i class="notika-icon notika-left-arrow"></i>Back </button> </a>
+                                </div>
+                                </div>
+
                             </ul>
                         </div>
                     </div>
@@ -318,24 +143,152 @@
                     <div class="view-mail-list sm-res-mg-t-30">
                         <div class="view-mail-hd">
                             <div class="view-mail-hrd">
-                                <h2>Email view</h2>
+                                <h2>View Details #:9943990 </h2>
                             </div>
+                            <p class="alert alert-info">User: Duke</p>
                             <div class="view-ml-rl">
-                                <p>08:26 PM (2 hours ago)</p>
+                                <p class="alert alert-warning">08:26 PM (2 hours ago)</p>
+                                
                             </div>
                         </div>
                         <div class="mail-ads mail-vw-ph">
                             <p class="first-ph"><b>Subject: </b>Lorem Ipsum has been the industry's standard dummy text ever</p>
-                            <p><b>Email:</b> <a href="#">example.@email.com</a></p>
-                            <p class="last-ph"><b>Date:</b> 15.03.2018</p>
+                            <p><b>Topic</b> <a href="#">British Enforcemnt Committee</a></p>
+                            <p class="last-ph"><b>Date Created:</b> 15.03.2018</p>
                         </div>
+
                         <div class="view-mail-atn">
-                            <h2>Hello Mamunur Roshid!</h2>
-                            <p>Dummy text of the printing and typesetting industry. Lorem Ipsum has been the <b>dustrys standard dummy text</b> ever since the 1500s, when an unknown printer took a galley of types and scrambleded it to make a type specimenen book. It hasn survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. when an unknown printer took a galley of types and scrambleded it to make a type specimenen book. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages <a href="#">Read more</a>.</p>
-                            <p>All the Lorem Ipsum generators on the Internet tend to repeat the predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence crisity structures, to generate Lorem Ipsum which looks reasonable. recently with.Dummy text of the printing and typesetting industryunknown printer took a galley of type. when an unknown printer took a galley of types and scrambleded it's stambanner to make a type specimenen book.survived not only five centuries, but also the leap into the electronic typesetting, remaining essentially unchanged.</p>
-                            <span class="vw-tr">Thanks and Regards</span>
-                            <span>Mark Smith</span>
+                        <div class="widget-tabs-list">
+                            <ul class="nav nav-tabs tab-nav-right">
+                                <li class="active"><a data-toggle="tab" href="#home2">Details</a></li>
+                                <li><a data-toggle="tab" href="#menu12">Attachments</a></li>
+                                <li><a data-toggle="tab" href="#menu22">Messages</a></li>
+                            </ul>
+                            <div class="tab-content tab-custom-st tab-ctn-right">
+                                <div id="home2" class="tab-pane fade in active">
+                                    <div class="tab-ctn">
+                                        <h3> Instructions</h3>
+                                        <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nulla sit amet est. Praesent ac the massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl. Nulla porta dolor. Cras dapibus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                                        <p class="tab-mg-b-0">In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam eget dui. In ac felis quis tortor malesuadan of pretium. Phasellus consectetuer vestibulum elit. Duis lobortis massa imperdiet quam. Pellentesque commodo eros a enim. Vestibulum ante ipsum primis in faucibus orci the luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Phasellus a est. Pellentesque commodo eros a enim. Cras ultricies mi eu turpis hendrerit of fringilla. Donec mollis hendrerit risus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Praesent egestas neque eu enim. In hac habitasse plat.</p>
+                                        <h5>Clients Review: Revision Comments</h5>
+                                        <hr>
+                                        <p class="tab-mg-b-0">In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam eget dui. In ac felis quis tortor malesuadan of pretium. Phasellus consectetuer vestibulum elit. Duis lobortis massa imperdiet quam. Pellentesque commodo eros a enim. Vestibulum ante ipsum primis in faucibus orci the luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Phasellus a est. Pellentesque commodo eros a enim. Cras ultricies mi eu turpis hendrerit of fringilla. Donec mollis hendrerit risus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Praesent egestas neque eu enim. In hac habitasse plat.</p>
+                                    </div>
+                                </div>
+                                <div id="menu12" class="tab-pane fade">
+                                    <div class="tab-ctn">
+                                        <h3>Attchemnts</h3>
+                                        <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nulla sit amet est. Praesent ac the massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl. Nulla porta dolor. Cras dapibus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
+                                        <p class="tab-mg-b-0">In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam eget dui. In ac felis quis tortor malesuadan of pretium. Phasellus consectetuer vestibulum elit. Duis lobortis massa imperdiet quam. Pellentesque commodo eros a enim. Vestibulum ante ipsum primis in faucibus orci the luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Phasellus a est. Pellentesque commodo eros a enim. Cras ultricies mi eu turpis hendrerit of fringilla. Donec mollis hendrerit risus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Praesent egestas neque eu enim. In hac habitasse plat.</p>
+                                    </div>
+                                </div>
+                                <div id="menu22" class="tab-pane fade">
+                                    <div class="tab-ctn">
+                                        <h4>Chats</h4>
+                                        <div class="chat-conversation">
+                                                    <div class="widgets-chat-scrollbar">
+                                                        <ul class="conversation-list">
+                                                            <li class="clearfix">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/1.jpg" alt="male">
+                                                                    <i>10:00</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap">
+                                                                        <p>
+                                                                            Hello!
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix odd">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/2.jpg" alt="Female">
+                                                                    <i>10:01</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap chat-widgets-cn">
+                                                                        <p>
+                                                                            Hi, How are you? What about our next meeting?
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/1.jpg" alt="male">
+                                                                    <i>10:01</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap">
+                                                                        <p>
+                                                                            Yeah everything is fine
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix odd">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/2.jpg" alt="male">
+                                                                    <i>10:02</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap chat-widgets-cn">
+                                                                        <p>
+                                                                            Wow that's great
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/1.jpg" alt="male">
+                                                                    <i>10:01</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap">
+                                                                        <p>
+                                                                            Doing Better i am thinking about that..
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix odd">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/2.jpg" alt="male">
+                                                                    <i>10:02</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap chat-widgets-cn">
+                                                                        <p>
+                                                                            Wow, You also tallent man...
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="chat-widget-input">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 col-md-12 col-sm-12 col-xs-12 chat-inputbar">
+                                                                <div class="form-group todo-flex">
+                                                                    <div class="nk-int-st">
+                                                                        <input type="text" class="form-control chat-input" placeholder="Enter your text">
+                                                                    </div>
+                                                                    <div class="chat-send">
+                                                                        <button type="submit" class="btn btn-md btn-primary btn-block notika-chat-btn">Send</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        </div>
+
                         <div class="file-download-system">
                             <div class="dw-st-ic mg-t-20">
                                 <div class="dw-atc-sn">
@@ -360,4 +313,3 @@
         </div>
     </div>
     <!-- Inbox area End-->
-   <?php require'footerplugin.php';?>

@@ -32,10 +32,10 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <!-- summernote CSS
 		============================================ -->
-        <link rel="stylesheet" href="assets/css/summernote/summernote.css">
+    <link rel="stylesheet" href="assets/css/summernote/summernote.css">
     <!-- dropzone CSS
 		============================================ -->
-        <link rel="stylesheet" href="assets/css/dropzone/dropzone.css">
+    <link rel="stylesheet" href="assets/css/dropzone/dropzone.css">
          <!-- Range Slider CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/themesaller-forms.css">
@@ -48,6 +48,20 @@
     <!-- jvectormap CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/jvectormap/jquery-jvectormap-2.0.3.css">
+     <!-- flot JS
+		============================================ -->
+        <script src="assets/js/flot/jquery.flot.js"></script>
+    <script src="assetsjs/flot/jquery.flot.resize.js"></script>
+    <script src="assetsjs/flot/flot-active.js"></script>
+    <!-- knob JS
+		============================================ -->
+    <script src="js/knob/jquery.knob.js"></script>
+    <script src="js/knob/jquery.appear.js"></script>
+    <script src="js/knob/knob-active.js"></script> 
+    <!-- dialog CSS
+		============================================ -->
+    <link rel="stylesheet" href="assets/css/dialog/sweetalert2.min.css">
+    <link rel="stylesheet" href="assets/css/dialog/dialog.css">
     <!-- notika icon CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/notika-custom-icon.css">
@@ -57,6 +71,9 @@
     <!-- wave CSS
 		============================================ -->
     <link rel="stylesheet" href="assets/css/wave/waves.min.css">
+    <!-- cropper CSS
+		============================================ -->
+    <link rel="stylesheet" href="assets/css/cropper/cropper.min.css">
      <!-- datapicker CSS
 		============================================ -->
         <link rel="stylesheet" href="assets/css/datapicker/datepicker3.css">

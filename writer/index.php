@@ -36,11 +36,38 @@ elseif(isset($_GET['view_complete'])){
 elseif(isset($_GET['view_revision'])){
     include'revision/view.php';
 }
+elseif(isset($_GET['view_bid'])){
+    include'view-bid.php';
+}
 elseif(isset($_GET['view_reassign'])){
     include'reassign/view.php';
 }
 elseif(isset($_GET['view_review'])){
     include'review/view.php';
+}
+elseif(isset($_GET['finance'])){
+    include'finance.php';
+}
+elseif(isset($_GET['myprofile'])){
+    include'profile.php';
+}
+
+elseif(isset($_GET['pay_upcoming'])){
+    include'finance/pay_upcoming.php';
+}
+elseif(isset($_GET['pay_cleared'])){
+    include'finance/pay_cleared.php';
+}
+elseif(isset($_GET['pay_review'])){
+    include'finance/pay_review.php';
+}
+
+elseif(isset($_GET['mybid'])){
+    include'mybid/mybid.php';
+}
+
+elseif(isset($_GET['view_mybid'])){
+    include'mybid/view.php';
 }
 else{
     include'available.php';

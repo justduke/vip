@@ -2238,9 +2238,9 @@ ol, ul{
 /*----------------------------------------*/
 /*  30.  Inbox CSS
 /*----------------------------------------*/
-.inbox-status ul.inbox-st-nav.inbox-ft li:first-child {
+/* .inbox-status ul.inbox-st-nav.inbox-ft li:first-child {
 	font-weight: 700;
-}
+} */
 .inbox-status ul.inbox-st-nav.inbox-ft li:first-child i{
     position: relative;
     top: 1px;
@@ -2249,12 +2249,12 @@ ol, ul{
 	padding: 8px 15px;
 }
 .inbox-status ul.inbox-st-nav li a{
-	color:#333;
+	color:#000384fa;
 	font-size:14px;
 	display:block;
 }
 .inbox-status ul.inbox-st-nav li i{
-	color:#0c1524;
+	color:#042398;
 	margin-right: 5px;
 	font-size:16px;
 }

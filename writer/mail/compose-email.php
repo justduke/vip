@@ -13,13 +13,13 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>Compose Email</h2>
-										<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+										<p>Welcome <span class="bread-ntd">Stephen Kagecha</span></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+                                <button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a></button>
 								</div>
 							</div>
 						</div>

@@ -12,118 +12,14 @@
 										<i class="notika-icon "><img src="../img/widgets/file.png" width="40px"></i>
 									</div>
 									<div class="breadcomb-ctn">
-                                        <h2>Available Orders</h2>
-                                        <p>Welcome, Stephen Kagecha</p>
+										<h2>My Bids</h2>
+										<p>Welcome, Stephen Kagecha</p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-
-                                <ul class="nav navbar-nav notika-top-nav">
-                                <li class="nav-item dropdown">      
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><span class="label label-warning notika-icon notika-sent">Order</span></a>
-                                <div role="menu" class="dropdown-menu message-dd animated zoomIn">
-                                <div class="hd-mg-tt">
-                                    <h4>Notifs</h4>
-                                    </div>
-                                    <div class="hd-message-info">
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        
-                                    </div>
-                                   
-                                </div>
-                                 </li>
-
-                                 <li class="dropdown">      
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span> <span class="label label-success notika-icon notika-support">Social</span></a>
-                                <div role="menu" class="dropdown-menu message-dd animated zoomIn">
-                                <div class="hd-mg-tt">
-                                    <h4>Notifs</h4>
-                                    </div>
-                                    <div class="hd-message-info">
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        
-                                    </div>
-                                    
-                                </div>
-                                 </li>
-
-                                 <li class="dropdown">      
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span> <span  class="label label-info notika-icon  notika-credit-card">Finance</span></a>
-                                <div role="menu" class="dropdown-menu message-dd animated zoomIn">
-                                    <div class="hd-mg-tt">
-                                    <h4>Notifs</h4>
-                                    </div>
-                                    <div class="hd-message-info">
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <a href="#">
-                                            <div class="hd-message-sn">
-                                                <div class="hd-mg-ctn">
-                                                    <p>#20139420</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        
-                                    </div>
-                                    
-                                </div>
-                                 </li>
-                              
-									<li><button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a> </button></li>  </ul>
+									<button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a></button>
 								</div>
 							</div>
 						</div>
@@ -148,6 +44,8 @@
                         </div>
                         <div class="table-responsive">
                             <table id="data-table-basic" class="table table-striped">
+                                
+                                       
                                 <thead>
                                     <tr>
                                         <th>ID</th>
@@ -162,7 +60,7 @@
                                 <tbody>
                                     <tr>
                                         
-                                        <td> <a href="index.php?view_bid">Tiger Nixon </a> </td>        
+                                        <td> <a href="index.php?view_mybid">Tiger Nixon </a> </td>        
                                        
                                         
                                         <td>System Architect</td>
@@ -521,3 +419,6 @@
 	<!-- tawk chat JS
 		============================================ -->
     <script src="assets/js/tawk-chat.js"></script>
+</body>
+
+</html>

@@ -9,7 +9,7 @@
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								<div class="breadcomb-wp">
 									<div class="breadcomb-icon">
-										<i class="notika-icon notika-mail"></i>
+										<i class="notika-icon notika-refresh"></i>
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>View In Progress</h2>
@@ -19,7 +19,7 @@
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+                                <button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a></button>
 								</div>
 							</div>
 						</div>
@@ -38,94 +38,17 @@
 						<div class="compose-ml">
                             <a class="btn" href="#">Orders</a>
                         </div>
-                        <div class="form-group">
-                            <div class="nk-int-st search-input search-overt">
-                                <input type="text" class="form-control" placeholder="Search Revision" />
-                                <button class="btn search-ib">Search</button>
-                            </div>
-                        </div>
+                       
                         <div class="inbox-status table-responsive" style="max-height:400px; overflow-x:scrollbar;">
-                        
+                        <h2>#:9843990 </h2>
                         <hr>
-                            <table class="table table-striped table-hover table-condensed table-responsive">
-                                <th>
-                                    <tr>
-                                    <td>Id</td>
-                                    <td>Title</td>
-                                    <td>Status</td>
-                                    
-                                    </tr>
-                                </th>
-                                <tbody>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                       
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                       
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                        
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">090438</a></td>
-                                        <td>Steve Duke</td>
-                                        <td>Completed</td>
-                                        
-                                    </tr>
-                                    
-                                </tbody>
+                        
+                            <ul class="inbox-st-nav inbox-ft">
+                                <li><a href="#"><i class="notika-icon notika-mail"></i> Order Query</a></li>
+                                <li><a href="#"><i class="notika-icon notika-sent"></i> Report Problem</a></li>
+                                <li><a href="#"><i class="notika-icon notika-sent"></i> Request Deadline Extension</a></li>
                                 
-                            </table>
-
-
-
-
-
-                            <!-- <ul class="inbox-st-nav inbox-ft">
-                                <li><a href="#"><i class="notika-icon notika-mail"></i> Inbox<span class="pull-right">12</span></a></li>
-                                <li><a href="#"><i class="notika-icon notika-sent"></i> Sent</a></li>
-                                <li><a href="#"><i class="notika-icon notika-draft"></i> Draft</a></li>
-                                <li><a href="#"><i class="notika-icon notika-trash"></i> Trash</a></li>
-                            </ul> -->
+                            </ul>
                         </div>
                         
                         
@@ -135,7 +58,7 @@
                     <div class="view-mail-list sm-res-mg-t-30">
                         <div class="view-mail-hd">
                             <div class="view-mail-hrd">
-                                <h2>View Details #:9843990 </h2>
+                                
                             </div>
                             <p class="alert alert-info">User: Duke</p>
                             <div class="view-ml-rl">
