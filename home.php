@@ -77,7 +77,7 @@
                         <ul class="nav navbar-nav notika-top-nav">
                            
                             <li class="nav-item dropdown">
-                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon ">TopNotch VIP</i></span></a>
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><i class="notika-icon "> <b>TopNotch VIP++</b></i></span></a>
                                 
                             </li>
                            
@@ -102,22 +102,22 @@
                     <div class="mobile-menu">
                         <nav id="dropdown">
                             <ul class="mobile-menu-nav">
-                                <li><a  href="home.html">Home</a>
+                                <li><a  href="index.php?index">Home</a>
                                     
                                 </li>
                                
                                 <li><a data-toggle="collapse" data-target="#Pagemob" href="#">Pages</a>
                                     <ul id="Pagemob" class="collapse dropdown-header-top">
-                                        <li><a href="contact.html">Contact</a>
+                                        <li><a href="contact.php">Contact</a>
                                         </li>
-                                        <li><a href="invoice.html">About</a>
+                                        <li><a href="invoice.php">About</a>
                                         </li>
-                                        <li><a href="invoice.html">System Terms</a>
+                                        <li><a href="invoice.php">System Terms</a>
                                         </li>
                                         
                                     </ul>
                                 </li>
-                                 <li><a data-toggle="collapse" data-target="#Pagemob" href="login-register.php">Log-in/Register</a></li>
+                                 <li><a data-toggle="collapse" data-target="#Pagemob" href="index.php?login">Log-in/Register</a></li>
 
                             </ul>
                         </nav>
@@ -133,12 +133,12 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <ul class="nav nav-tabs notika-menu-wrap menu-it-icon-pro">
-                        <li class="active"><a  href="home.html"><i class="notika-icon notika-house"></i> Home</a>
+                        <li class="active"><a  href="index.php?index"><i class="notika-icon notika-house"></i> Home</a>
                         </li>
                         
                         <li><a data-toggle="tab" href="#Page"><i class="notika-icon notika-support"></i> Pages</a>
                         </li>
-                        <li><a  href="login-register.php"><i class="notika-icon notika-support"></i> Login- Register </a>
+                        <li><a  href="index.php?login"><i class="notika-icon notika-support"></i> Login- Register </a>
                         </li>
                        
                         </li>
@@ -149,11 +149,11 @@
                         <div id="Page" class="tab-pane notika-tab-menu-bg animated flipInX">
                             <ul class="notika-main-menu-dropdown">
                                     
-                                            <li><a href="contact.html">Contact</a>
+                                            <li><a href="contact.php">Contact</a>
                                             </li>
-                                            <li><a href="invoice.html">About</a>
+                                            <li><a href="invoice.php">About</a>
                                             </li>
-                                            <li><a href="invoice.html">System Terms</a>
+                                            <li><a href="invoice.php">System Terms</a>
                                             </li>
                                             
                                        
