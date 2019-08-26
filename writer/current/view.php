@@ -13,17 +13,19 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>View In Progress</h2>
-										<p>Welcome, Stephen Kagecha</p>
+										<p>Welcome <a href="index.php?myprofile">Stephen Kagecha</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a></button>
+                                <a href="index.php?index"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i> </button></a>
 								</div>
 							</div>
-						</div>
-					</div>
+                        </div><br>
+                        <h5 style="color:aquamarine;"><a href="index.php?available">Available</a>/ <a href="index.php?current">Current</a> / <a href="index.php?view_current">View_Current</a> </h5>
+                    </div>
+                    
 				</div>
 			</div>
 		</div>
@@ -33,34 +35,96 @@
     <div class="inbox-area">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="inbox-left-sd">
 						<div class="compose-ml">
                             <a class="btn" href="#">Order</a>
                         </div>
                         
                         <div class="inbox-status table-responsive" style="max-height:400px; overflow-x:scrollbar;">
-                        <h2>#:9843990 </h2>
+                        <h2>#:9844990 </h2>
                         <hr>
                         
                             <ul class="inbox-st-nav inbox-ft">
-                                <li><a href="#"><i class="notika-icon notika-mail"></i> Order Query</a></li>
-                                <li><a href="#"><i class="notika-icon notika-sent"></i> Report Problem</a></li>
-                                <li><a href="#"><i class="notika-icon notika-sent"></i> Request Deadline Extension</a></li>
+                            
+                            
+                                <li class="btn btn-vip" data-toggle="modal" data-target="#modalProblem" ><a href="#"><i class="notika-icon notika-draft" ></i> Report Problem</a></li><br>
+                                
+                                <li class="btn btn-vip" data-toggle="modal" data-target="#modalDeadline" ><a href="#"><i class="notika-icon notika-draft" ></i> Request Deadline Extension</a></li><br>
                                 
                             </ul>
                         </div>
+
+                        
+
+                                <div class="modal fade" id="modalDeadline" role="dialog">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h3><span class="notika-icon notika-credit-card"></span> #08058335 :Bid  </h3>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                <b>Preffered Deadline:<b>
+                                                <div class="form-group">
+                                                    <label for="input" class="col-sm-2 control-label"></label>
+                                                    <div class="col-sm-10">
+                                                        <input type="datetime-local" name="" id="input" class="form-control" value="" required="required" title="">
+                                                    </div>
+                                                </div>
+                                                </span>
+                                                
+                                                
+                                            </div>
+                                            <hr> <br>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-vip waves-effect" data-dismiss="modal">Request</button>
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="modal fade" id="modalProblem" role="dialog">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h3><span class="notika-icon notika-credit-card"></span> #08058335 :Bid  </h3>
+                                            </div>
+                                            <div class="modal-body">
+                                               
+                                                
+                                                <div class="form-group">
+                                                    <label for="input" class="col-sm-8 control-label"><b>Any Order Problem:<b></label>
+                                                    <div class="">
+                                                        <textarea rows="5" cols="30"></textarea>
+                                                    </div>
+                                                </div>
+                                                </span>
+                                                
+                                                
+                                            </div>
+                                            <hr> <br>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-vip waves-effect" data-dismiss="modal">Request</button>
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                         
                         
                     </div>
                 </div>
-                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                     <div class="view-mail-list sm-res-mg-t-30">
                         <div class="view-mail-hd">
                             <div class="view-mail-hrd">
-                               
+                            <p class="alert alert-info"><i class="notika-icon notika-credit-card"></i> Salary : $74.49</p> 
                             </div>
-                            <p class="alert alert-info">User: Duke</p>
+                            
                             <div class="view-ml-rl">
                                 <p class="alert alert-warning">08:26 PM (2 hours ago)</p>
                                 
@@ -93,8 +157,12 @@
                                 <div id="menu12" class="tab-pane fade">
                                     <div class="tab-ctn">
                                         <h3>Attchemnts</h3>
-                                        <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nulla sit amet est. Praesent ac the massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl. Nulla porta dolor. Cras dapibus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-                                        <p class="tab-mg-b-0">In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam eget dui. In ac felis quis tortor malesuadan of pretium. Phasellus consectetuer vestibulum elit. Duis lobortis massa imperdiet quam. Pellentesque commodo eros a enim. Vestibulum ante ipsum primis in faucibus orci the luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Phasellus a est. Pellentesque commodo eros a enim. Cras ultricies mi eu turpis hendrerit of fringilla. Donec mollis hendrerit risus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Praesent egestas neque eu enim. In hac habitasse plat.</p>
+                                        <div class="btn-group images-cropper-pro">
+                                                <label title="Upload image file" for="inputImage" class="btn btn-vip img-cropper-cp">
+														<input type="file" accept="all/*" name="file" id="inputImage" class="hide"> Upload Order
+													</label>
+                                                
+                                        </div>
                                     </div>
                                 </div>
                                 <div id="menu22" class="tab-pane fade">

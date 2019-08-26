@@ -79,7 +79,7 @@
                     <label><input type="checkbox" class="i-checks"> <i></i> Keep me signed in</label>
                 </div>
                 <a href="#l-register" data-ma-action="nk-login-switch" data-ma-block="#l-register" class="btn btn-login btn-success btn-float"><i class="notika-icon notika-right-arrow right-arrow-ant"></i></a>
-                <button type="btn" class="btn btn-vip-danger" value="Proceed">Proceed</button>
+               <a href="writer/index.php?welcome"> <button type="btn" class="btn btn-vip-danger" value="Proceed">Proceed</button></a>
             </div>
 
             <div class="nk-navigation nk-lg-ic">

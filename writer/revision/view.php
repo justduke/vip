@@ -12,17 +12,19 @@
 										<i class="notika-icon notika-refresh"></i>
 									</div>
 									<div class="breadcomb-ctn">
-										<h2>View In Progress</h2>
-										<p>Welcome, Stephen Kagecha</p>
+										<h2>View In Revision</h2>
+										<p>Welcome <a href="index.php?myprofile">Stephen Kagecha</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-                                <button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a></button>
+                                <a href="index.php?index"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i> </button></a>
 								</div>
 							</div>
-						</div>
+                        </div>
+                        <br>
+                        <h5 style="color:aquamarine;"><a href="index.php?available">Available</a>/ <a href="index.php?revision">Revision</a> / <a href="index.php?view_revision">View_Revision</a> </h5>
 					</div>
 				</div>
 			</div>

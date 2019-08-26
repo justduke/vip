@@ -42,7 +42,7 @@
                                 <li><a href="index.php?myprofile"><i class="notika-icon notika-support"></i> Profile</a></li>
                                 <li><a href="index.php?mailbox"><i class="notika-icon notika-mail"></i> Mailbox</a></li>
                                 <li><a href="index.php?pay_upcoming"><i class="notika-icon notika-credit-card"></i> Finance</a></li>
-                                <li><a href="#"><i class="notika-icon notika-flag"></i> Updates</a></li>
+                                <li><a href="#"><i class="notika-icon notika-flag"></i> Terms/Rules/Q&A</a></li>
                             </ul>
                         </div>
                         <hr>

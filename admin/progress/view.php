@@ -13,13 +13,13 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>View In Progress</h2>
-										<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+										<p>Welcome Admin <span class="bread-ntd">Kagecha</span></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+                                <a href="index.php?home"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i></button></a>
 								</div>
 							</div>
 						</div>
@@ -36,11 +36,11 @@
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                     <div class="inbox-left-sd">
 						<div class="compose-ml">
-                            <a class="btn" href="#">Orders</a>
+                            <span class="btn" href="#">Order <h4> #:9843990 </h4></span>
                         </div>
                         <div class="form-group">
                             <div class="nk-int-st search-input search-overt">
-                                <input type="text" class="form-control" placeholder="Search Revision" />
+                                <input type="text" class="form-control" placeholder="Search In Progress" />
                                 <button class="btn search-ib">Search</button>
                             </div>
                         </div>
@@ -60,55 +60,55 @@
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td> <span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-success"> In Progress</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     
@@ -135,9 +135,13 @@
                     <div class="view-mail-list sm-res-mg-t-30">
                         <div class="view-mail-hd">
                             <div class="view-mail-hrd">
-                                <h2>View Details #:9843990 </h2>
+                            <p class="alert alert-info">
+                                <span class="notika-icon notika-credit-card"> </span> Salary : $37.47
+                                 <span class="label label-primary" >  
+                                     User: Steve #:1000
+                                 </span> </p>
                             </div>
-                            <p class="alert alert-info">User: Duke</p>
+                           
                             <div class="view-ml-rl">
                                 <p class="alert alert-warning">08:26 PM (2 hours ago)</p>
                                 

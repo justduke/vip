@@ -51,6 +51,9 @@ elseif(isset($_GET['finance'])){
 elseif(isset($_GET['myprofile'])){
     include'profile.php';
 }
+elseif(isset($_GET['welcome'])){
+    include'welcome.php';
+}
 
 elseif(isset($_GET['pay_upcoming'])){
     include'finance/pay_upcoming.php';

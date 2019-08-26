@@ -13,17 +13,19 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>Completed Orders</h2>
-										<p>Welcome, Stephen Kagecha</p>
+										<p>Welcome <a href="index.php?myprofile">Stephen Kagecha</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a></button>
+                                <a href="index.php?index"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i> </button></a>
 								</div>
-							</div>
-						</div>
-					</div>
+                            </div>
+                        </div><br>
+                        <h5 style="color:aquamarine;"><a href="index.php?available">Available</a>/<a href="index.php?completed">Complete</a> </h5> 
+                    </div>
+                   
 				</div>
 			</div>
 		</div>
@@ -60,7 +62,7 @@
                                 <tbody>
                                     <tr>
                                         
-                                        <td> <a href="index.php?view_comlete">Tiger Nixon </a> </td>        
+                                        <td> <a href="index.php?view_complete">Tiger Nixon </a> </td>        
                                        
                                         
                                         <td>System Architect</td>

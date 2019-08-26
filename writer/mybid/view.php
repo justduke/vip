@@ -13,16 +13,18 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>Bid</h2>
-										<p>Welcome, Stephen Kagecha</p>
+										<p>Welcome <a href="index.php?myprofile">Stephen Kagecha</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a></button>
+                                <a href="index.php?index"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i> </button></a>
 								</div>
 							</div>
-						</div>
+                        </div>
+                        <br>
+                        <h5 style="color:aquamarine;"><a href="index.php?available">Available</a>/ <a href="index.php?mybid">My Bid</a>/ <a href="index.php?view_mybid">View_bid</a></h5>
 					</div>
 				</div>
 			</div>
@@ -58,9 +60,9 @@
                     <div class="view-mail-list sm-res-mg-t-30">
                         <div class="view-mail-hd">
                             <div class="view-mail-hrd">
-                               
+                            <p class="alert alert-info"><i class="notika-icon notika-credit-card"></i> Salary : $47.30</p>
                             </div>
-                            <p class="alert alert-info">User: Duke</p>
+                            
                             <div class="view-ml-rl">
                                 <p class="alert alert-warning">08:26 PM (2 hours ago)</p>
                                 

@@ -13,17 +13,19 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>View In Progress</h2>
-										<p>Welcome, Stephen Kagecha</p>
+										<p>Welcome <a href="index.php?myprofile">Stephen Kagecha</a></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a></button>
+								<a href="index.php?index"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i> </button></a>
 								</div>
 							</div>
-						</div>
-					</div>
+                        </div><br>
+                        <h5 style="color:aquamarine;"><a href="index.php?available">Available</a>/<a href="index.php?completed">Complete</a>/<a href="index.php?view_complete">View_Complete</a> </h5> 
+                    </div>
+                   
 				</div>
 			</div>
 		</div>
@@ -36,16 +38,11 @@
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                     <div class="inbox-left-sd">
 						<div class="compose-ml">
-                            <a class="btn" href="#">Orders</a>
+                            <a class="btn" href="#">Order</a>
                         </div>
-                        <div class="form-group">
-                            <div class="nk-int-st search-input search-overt">
-                                <input type="text" class="form-control" placeholder="Search Revision" />
-                                <button class="btn search-ib">Search</button>
-                            </div>
-                        </div>
+                        
                         <div class="inbox-status table-responsive" style="max-height:400px; overflow-x:scrollbar;">
-                        <h2>#:9843990 </h2>
+                        <h4>#:9843990 </h4>
                         <hr>
                         
                             <ul class="inbox-st-nav inbox-ft">
@@ -63,9 +60,9 @@
                     <div class="view-mail-list sm-res-mg-t-30">
                         <div class="view-mail-hd">
                             <div class="view-mail-hrd">
-                                <h2>View Details #:9843990 </h2>
+                            <p class="alert alert-info"> <i class=" notika-icon notika-credit-card"></i> Salary : $46.48</p>
                             </div>
-                            <p class="alert alert-info">User: Duke</p>
+                            
                             <div class="view-ml-rl">
                                 <p class="alert alert-warning">08:26 PM (2 hours ago)</p>
                                 

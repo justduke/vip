@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>TopNotch VIP++</title>
+    <title>TopNotch VIP++ || Writer's System</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon
@@ -117,7 +117,7 @@
                     <div class="header-top-menu">
                         <ul class="nav navbar-nav notika-top-nav">
                           <li> <a> <h3>TopNotch VIP++</h4> </a> </li>
-                          <li> <a href="login-register.php"> <span type="" class=" label btn-danger"> Log Out</span> </a> </li>
+                          <li> <a href="../login-register.php"> <span type="" class=" label btn-danger" > <img class="notika-icon img-rounded" title="Sign Out" src="assets/images/logoff.jpg" alt="" width="20px" > </span> </a> </li>
                         </ul>
                     </div>
                 </div>

@@ -38,6 +38,18 @@ elseif(isset($_GET['compose'])){
 elseif(isset($_GET['viewmail'])){
     include'mail/view-mail.php';
 }
+elseif(isset($_GET['available'])){
+    include'available/view.php';
+}
+elseif(isset($_GET['pay_upcoming'])){
+    include'finance/pay_upcoming.php';
+}
+elseif(isset($_GET['pay_review'])){
+    include'finance/pay_review.php';
+}
+elseif(isset($_GET['pay_cleared'])){
+    include'finance/pay_cleared.php';
+}
 elseif(isset($_GET['qa'])){
     include'QA/qa.php';
 }

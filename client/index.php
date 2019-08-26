@@ -1,0 +1,76 @@
+<?php
+include'header.php';
+include'menu.php';
+
+if(isset($_GET['index'])){
+    include'available.php';
+}elseif(isset($_GET['order_place'])){
+    include'order/place_order.php';
+}
+elseif(isset($_GET['review'])){
+    include'review/review.php';
+}
+elseif(isset($_GET['completed'])){
+    include'complete/complete.php';
+}
+elseif(isset($_GET['revision'])){
+    include'revision/revision.php';
+}
+elseif(isset($_GET['reassign'])){
+    include'reassign/reassign.php';
+}
+elseif(isset($_GET['mailbox'])){
+    include'mail/inbox.php';
+}elseif(isset($_GET['viewmail'])){
+    include'mail/view-mail.php';
+}
+elseif(isset($_GET['compose'])){
+    include'mail/compose-email.php';
+}
+elseif(isset($_GET['view_current'])){
+    include'current/view.php';
+}
+elseif(isset($_GET['view_complete'])){
+    include'complete/view.php';
+}
+elseif(isset($_GET['view_revision'])){
+    include'revision/view.php';
+}
+elseif(isset($_GET['view_bid'])){
+    include'view-bid.php';
+}
+elseif(isset($_GET['view_reassign'])){
+    include'reassign/view.php';
+}
+elseif(isset($_GET['view_review'])){
+    include'review/view.php';
+}
+elseif(isset($_GET['finance'])){
+    include'finance.php';
+}
+elseif(isset($_GET['myprofile'])){
+    include'profile.php';
+}
+
+elseif(isset($_GET['pay_upcoming'])){
+    include'finance/pay_upcoming.php';
+}
+elseif(isset($_GET['pay_cleared'])){
+    include'finance/pay_cleared.php';
+}
+elseif(isset($_GET['pay_review'])){
+    include'finance/pay_review.php';
+}
+
+elseif(isset($_GET['mybid'])){
+    include'mybid/mybid.php';
+}
+
+elseif(isset($_GET['view_mybid'])){
+    include'mybid/view.php';
+}
+else{
+    include'available.php';
+}
+include'footerplugin.php';
+?>

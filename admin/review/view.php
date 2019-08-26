@@ -1,5 +1,4 @@
 
-    
 	<!-- Breadcomb area Start-->
 	<div class="breadcomb-area">
 		<div class="container">
@@ -14,13 +13,13 @@
 									</div>
 									<div class="breadcomb-ctn">
 										<h2>View Under Review</h2>
-										<p>Welcome to Notika <span class="bread-ntd">Admin Template</span></p>
+										<p>Welcome Admin <span class="bread-ntd">Kagecha</span></p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+									<a href="index.php?home"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i></button></a>
 								</div>
 							</div>
 						</div>
@@ -37,11 +36,11 @@
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
                     <div class="inbox-left-sd">
 						<div class="compose-ml">
-                            <a class="btn" href="#">Orders</a>
+                            <span class="btn" href="#">Order <h4> #:9843990 </h4></span>
                         </div>
                         <div class="form-group">
                             <div class="nk-int-st search-input search-overt">
-                                <input type="text" class="form-control" placeholder="Search Revision" />
+                                <input type="text" class="form-control" placeholder="Search Review" />
                                 <button class="btn search-ib">Search</button>
                             </div>
                         </div>
@@ -61,55 +60,55 @@
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td> <span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     <tr>
                                         <td><a href="#">090438</a></td>
                                         <td>Steve Duke</td>
-                                        <td>Completed</td>
+                                        <td><span class="label label-info"> Review</span></td>
                                         <td>12:1:13</td>
                                     </tr>
                                     
@@ -136,9 +135,13 @@
                     <div class="view-mail-list sm-res-mg-t-30">
                         <div class="view-mail-hd">
                             <div class="view-mail-hrd">
-                                <h2>View Details #:9843990 </h2>
+                            <p class="alert alert-info">
+                                <span class="notika-icon notika-credit-card"> </span> Salary : $37.47
+                                 <span class="label label-primary" >  
+                                     User: Steve #:1000
+                                 </span> </p>
                             </div>
-                            <p class="alert alert-info">User: Duke</p>
+                           
                             <div class="view-ml-rl">
                                 <p class="alert alert-warning">08:26 PM (2 hours ago)</p>
                                 
@@ -178,8 +181,104 @@
                                 <div id="menu22" class="tab-pane fade">
                                     <div class="tab-ctn">
                                         <h4>Chats</h4>
-                                        <p>Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nulla sit amet est. Praesent ac the massa at ligula laoreet iaculis. Vivamus aliquet elit ac nisl. Nulla porta dolor. Cras dapibus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-                                        <p class="tab-mg-b-0">In hac habitasse platea dictumst. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nam eget dui. In ac felis quis tortor malesuadan of pretium. Phasellus consectetuer vestibulum elit. Duis lobortis massa imperdiet quam. Pellentesque commodo eros a enim. Vestibulum ante ipsum primis in faucibus orci the luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Phasellus a est. Pellentesque commodo eros a enim. Cras ultricies mi eu turpis hendrerit of fringilla. Donec mollis hendrerit risus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Praesent egestas neque eu enim. In hac habitasse plat.</p>
+                                        <div class="chat-conversation">
+                                                    <div class="widgets-chat-scrollbar">
+                                                        <ul class="conversation-list">
+                                                            <li class="clearfix">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/1.jpg" alt="male">
+                                                                    <i>10:00</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap">
+                                                                        <p>
+                                                                            Hello!
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix odd">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/2.jpg" alt="Female">
+                                                                    <i>10:01</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap chat-widgets-cn">
+                                                                        <p>
+                                                                            Hi, How are you? What about our next meeting?
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/1.jpg" alt="male">
+                                                                    <i>10:01</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap">
+                                                                        <p>
+                                                                            Yeah everything is fine
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix odd">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/2.jpg" alt="male">
+                                                                    <i>10:02</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap chat-widgets-cn">
+                                                                        <p>
+                                                                            Wow that's great
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/1.jpg" alt="male">
+                                                                    <i>10:01</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap">
+                                                                        <p>
+                                                                            Doing Better i am thinking about that..
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="clearfix odd">
+                                                                <div class="chat-avatar">
+                                                                    <img src="../img/post/2.jpg" alt="male">
+                                                                    <i>10:02</i>
+                                                                </div>
+                                                                <div class="conversation-text">
+                                                                    <div class="ctext-wrap chat-widgets-cn">
+                                                                        <p>
+                                                                            Wow, You also tallent man...
+                                                                        </p>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="chat-widget-input">
+                                                        <div class="row">
+                                                            <div class="col-sm-12 col-md-12 col-sm-12 col-xs-12 chat-inputbar">
+                                                                <div class="form-group todo-flex">
+                                                                    <div class="nk-int-st">
+                                                                        <input type="text" class="form-control chat-input" placeholder="Enter your text">
+                                                                    </div>
+                                                                    <div class="chat-send">
+                                                                        <button type="submit" class="btn btn-md btn-primary btn-block notika-chat-btn">Send</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                     </div>
                                 </div>
                             </div>
@@ -210,3 +309,4 @@
         </div>
     </div>
     <!-- Inbox area End-->
+   

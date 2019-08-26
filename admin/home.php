@@ -1,4 +1,138 @@
+<!-- Breadcomb area Start-->
+<div class="breadcomb-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="breadcomb-list">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="breadcomb-wp">
+									<div class="breadcomb-icon">
+										<i class="notika-icon notika-support"></i>
+									</div>
+									<div class="breadcomb-ctn">
+										<h2>Support System</h2>
+										<p>Welcome: <span class="bread-ntd">Stephen Kagecha</span></p>
+									</div>
+								</div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
+								<div class="breadcomb-report">
+                                <ul class="nav navbar-nav notika-top-nav">
+                                <li class="nav-item dropdown">      
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span><span class="label label-warning notika-icon notika-sent"> Order</span></a>
+                                <div role="menu" class="dropdown-menu message-dd animated zoomIn">
+                                <div class="hd-mg-tt">
+                                    <h4>Notifs</h4>
+                                    </div>
+                                    <div class="hd-message-info">
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        
+                                    </div>
+                                   
+                                </div>
+                                 </li>
 
+                                 <li class="dropdown">      
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span> <span class="label label-success notika-icon notika-mail"> Support</span></a>
+                                <div role="menu" class="dropdown-menu message-dd animated zoomIn">
+                                <div class="hd-mg-tt">
+                                    <h4>Notifs</h4>
+                                    </div>
+                                    <div class="hd-message-info">
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                 </li>
+
+                                 <li class="dropdown">      
+                                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><span> <span  class="label label-info notika-icon  notika-credit-card"> Finance</span></a>
+                                <div role="menu" class="dropdown-menu message-dd animated zoomIn">
+                                    <div class="hd-mg-tt">
+                                    <h4>Notifs</h4>
+                                    </div>
+                                    <div class="hd-message-info">
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="#">
+                                            <div class="hd-message-sn">
+                                                <div class="hd-mg-ctn">
+                                                    <p>#20139420</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                 </li>
+                              
+									<li> <a href="index.php?index"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i> </button></a></li>  </ul>
+								</div>
+                            </div>
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Breadcomb area End-->
     <!-- Start Status area -->
     <div class="notika-status-area">
         <div class="container" id="container">
@@ -118,20 +252,9 @@
         </div>
     </div>
     <!-- End Status area-->
-    <!-- Start Sale Statistic area-->
-    <div class="sale-statistic-area">
-        <div class="container">
-            <div class="row">
-                
-                
-            </div>
-        </div>
-    </div>
-    <br>
-    <!-- End Sale Statistic area-->
-<br>
-    <!-- Start Status area -->
-    <div class="notika-status-area " >
+
+     <!-- Start Status area -->
+     <div class="notika-status-area " >
         <div class="container" id="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -153,6 +276,124 @@
                             
                             <li class="img-rounded "  id="progress" >
                             <a href="index.php?review"><img src="../img/widgets/file.png" width="54px"alt=""></a>
+                             </li>
+                            <?php
+                            }
+                            ?>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30">
+                        <div class="website-traffic-ctn">
+                            <h2><span class="counter">90,000</span>k</h2>
+                            <p>Orders In Revision</p>
+                        </div>
+                        <div>
+                        <ul>
+                        <?php
+                        if (isset($_GET['revision'])){
+                           ?>
+                            <li class="img-rounded active"  id="progress" >
+                            <a href="index.php?revision"><img src="../img/widgets/file.png" width="54px"alt=""></a>
+                             </li>
+                        <?php }
+                        else{ ?>
+                            
+                            <li class="img-rounded "  id="progress" >
+                            <a href="index.php?revision"><img src="../img/widgets/file.png" width="54px"alt=""></a>
+                             </li>
+                            <?php
+                            }
+                            ?>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30 dk-res-mg-t-30">
+                        <div class="website-traffic-ctn">
+                            <h2>$<span class="counter">40,000</span></h2>
+                            <p>Reassigned Orders</p>
+                        </div>
+                        <div>
+                        <ul>
+                        <?php
+                        if (isset($_GET[''])){
+                           ?>
+                            <li class="img-rounded active"  id="progress" >
+                            <a href="index.php?reassign"><img src="../img/widgets/file.png" width="54px"alt=""></a>
+                             </li>
+                        <?php }
+                        else{ ?>
+                            
+                            <li class="img-rounded "  id="progress" >
+                            <a href="index.php?reassign"><img src="../img/widgets/file.png" width="54px"alt=""></a>
+                             </li>
+                            <?php
+                            }
+                            ?>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30 dk-res-mg-t-30">
+                        <div class="website-traffic-ctn">
+                            <h2><span class="counter">1,000</span></h2>
+                            <p>Support</p>
+                        </div>
+                        <div>
+                        <ul>
+                        <?php
+                        if (isset($_GET['support'])){
+                           ?>
+                            <li class="img-rounded active"  id="progress" >
+                            <a href="index.php?support"><img src="../img/widgets/Iconshock.ico" width="54px"alt=""></a>
+                             </li>
+                        <?php }
+                        else{ ?>
+                            
+                            <li class="img-rounded "  id="progress" >
+                            <a href="index.php?support"><img src="../img/widgets/Iconshock.ico" width="54px"alt=""></a>
+                             </li>
+                            <?php
+                            }
+                            ?>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Status area-->
+   
+<br>
+    <!-- Start Status area -->
+    <div class="notika-status-area " >
+        <div class="container" id="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="wb-traffic-inner notika-shadow sm-res-mg-t-30 tb-res-mg-t-30">
+                        <div class="website-traffic-ctn">
+                            <h2><span class="counter">50,000</span></h2>
+                            <p>Available Orders</p>
+                        </div>
+                        <div class="sparkline">
+                        <ul>
+                        <?php
+                        if (isset($_GET['available'])){
+                           ?>
+                            <li class="img-rounded active"  id="progress" >
+                            <a href="index.php?available"><img src="../img/widgets/file.png" width="54px"alt=""></a>
+                             </li>
+                        <?php }
+                        else{ ?>
+                            
+                            <li class="img-rounded "  id="progress" >
+                            <a href="index.php?available"><img src="../img/widgets/file.png" width="54px"alt=""></a>
                              </li>
                             <?php
                             }
@@ -409,48 +650,28 @@
                                     </thead>
                                     <tbody class="button-icon-btn">
                                         <tr>
-                                            <?php if(isset($_GET['mail'])){?>
-                                            <td class="f-500 c-cyan">
-                                           <a href="index.php?mail">  <button class="btn btn-primary primary-icon-notika "><i class="notika-icon notika-mail"></i> Mailing </button></a>
-                                            </td>
-                                            <?php }
-                                             else{
-                                                ?>
+                                           
                                             <td class="f-500 c-cyan">
                                            <a href="index.php?mail">  <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-mail"></i> Mailing </button></a>
                                             </td>
-                                            <?php }?>
+                                            
                                            
-                                            <?php if(isset($_GET['qa'])){?>
+                                            
                                             <td class="f-500 c-cyan">
                                            <a href="index.php?qa">  <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-chat"></i>Q & A</button></a>
                                             </td>
-                                            <?php }
-                                             else{
-                                                ?>
-                                            <td class="f-500 c-cyan">
-                                           <a href="index.php?qa">   <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-chat"></i>Q & A</button></a>
-                                            </td>
-                                            <?php }?>
-
-                                            <?php if(isset($_GET['o-placement'])){?>
+                                           
+                                            
+                                       
                                             <td class="f-500 c-cyan">
                                            <a href="index.php?o-placement">  <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-support"></i>O-Placement</button></a>
                                             </td>
-                                            <?php }
-                                             else{
-                                                ?>
-                                            <td class="f-500 c-cyan">
-                                           <a href="index.php?o-placement">  <button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-support"></i>O-Placement</button></a>
-                                            </td>
-                                            <?php }?>
-
-
+                                            
                                                  <td class="f-500 c-cyan"><button class="btn btn-primary primary-icon-notika"><i class="notika-icon notika-support"></i>O-Placement</button></td>
                                         </tr>
                                         <tr>
                                             <td class="f-500 c-cyan">
-                                            <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-house"></i> Home</button>
+                                           <a href="index.php?pay_upcoming"> <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-credit-card"></i> Finance</button></a>
                                             </td>
                                             <td> <button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-search"></i> Search</button></td>
                                             <td class="f-500 c-cyan"><button class="btn btn-default btn-icon-notika"><i class="notika-icon notika-menu"></i> More</button></td>

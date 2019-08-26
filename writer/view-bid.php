@@ -80,14 +80,15 @@
 										<i class="notika-icon notika-mail"></i>
 									</div>
 									<div class="breadcomb-ctn">
-										<h2>View Order</h2>
+										<h2>Available:View Order</h2>
 										<p>User: Stephen Kagecha</p>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-3">
 								<div class="breadcomb-report">
-									<button data-toggle="tooltip" data-placement="left" title="Download Report" class="btn"><i class="notika-icon notika-sent"></i></button>
+                               
+                                <a href="index.php?index"><button data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i></button> </a>
 								</div>
 							</div>
 						</div>
@@ -107,21 +108,104 @@
                             <a class="btn" href="#">Operations </a>
                         </div>
                         <div class="inbox-status">
+                            
                             <ul class="inbox-st-nav inbox-ft">
-                                <li><a href="#"><i class="notika-icon notika-draft"></i> Place Bid<span class="pull-right">12</span></a></li>
-                                <li><a href="#"><i class="notika-icon notika-mail"></i> Query</a></li>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="dialog-inner mg-t-30">
-                                    <div class="contact-hd dialog-hd">
-                                        <h2>Dialog passing a parameter</h2>
-                                        
-                                    </div>
-                                    <div class="dialog-pro dialog">
-                                        <button class="btn btn-info" id="sa-params">Click me</button>
+                                <div class="view-mail-hrd">
+                                    <h2> ID-#:9943990 </h2>
+                                    
+                                </div>
+                                <li class="btn btn-vip" data-toggle="modal" data-target="#myModalBid" ><a href="#"><i class="notika-icon notika-draft" ></i> Place Bid</a></li><br>
+                                <!-- <li><a href="#"><i class="notika-icon notika-mail"></i> Query</a></li> -->
+                                <li class="btn btn-vip" data-toggle="modal" data-target="#myModalQuery" ><a href="#"><i class="notika-icon notika-mail" ></i> Query</a></li>
+                                
+                            </ul>
+                            <div class="modal fade" id="myModalBid" role="dialog">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h3><span class="notika-icon notika-credit-card"></span> :Bid  </h3>
+                                            </div>
+                                            <div class="modal-body">
+                                               <span> <b>Salary:</b> $56.76 <br></span>
+                                                
+                                               <span> <b> Winning Bid:</b> $52.89 <br> </span>
+
+                                               <span> <b>Your Bid:</b>
+                                                <div class="form-group">
+                                                    <label for="input" class="col-sm-2 control-label"></label>
+                                                    <div class="col-sm-10">
+                                                        <input type="int" name="" id="input" class="form-control" value="" required="required" title="" placeholder="$">
+                                                    </div>
+                                                </div>
+                                                </span>
+                                                <span>
+                                                <b>Preffered Deadline:<b>
+                                                <div class="form-group">
+                                                    <label for="input" class="col-sm-2 control-label"></label>
+                                                    <div class="col-sm-10">
+                                                        <input type="datetime-local" name="" id="input" class="form-control" value="" required="required" title="">
+                                                    </div>
+                                                </div>
+                                                </span>
+                                                
+                                                
+                                            </div>
+                                            <hr> <br>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-vip waves-effect" data-dismiss="modal">Save changes</button>
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            </ul>
+
+                                <div class="modal fade" id="myModalQuery" role="dialog">
+                                    <div class="modal-dialog modal-sm">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h3> <span class="notika-icon notika-mail"> :Query </h3>
+                                            </div>
+                                            <div class="modal-body">
+                                                
+                                                <div class="row">
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                                    <div class="nk-int-mk sl-dp-mn">
+                                                        <h2>Option:</h2>
+                                                    </div>
+                                                    <div class="">
+                                                        <select class="chosen" data-placeholder="Choose Format">
+                                                            <option value="" disabled>Query Option</option>
+                                                            <option value="">Seek Reassingment</option>
+                                                            <option value="">Deadline Request</option>
+                                                            <option value="">Additional Materials</option>
+                                                                
+                                                            </select>
+                                                    </div>
+                                                </div>
+                                                </div>
+
+                                                <b>Query Message:<b>
+                                                <div class="form-group">
+                                                    <label for="input" class="col-sm-2 control-label"></label>
+                                                    <div class="col-sm-10">
+                                                        <textarea class="form-control" rows="6" cols="15"  required="required"></textarea>
+                                                       
+                                                    </div>
+                                                </div>
+                                                
+                                                
+
+                                            </div>
+                                            <hr>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Save changes</button>
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             
                         </div>
                         <hr>
@@ -142,11 +226,14 @@
                 <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
                     <div class="view-mail-list sm-res-mg-t-30">
                         <div class="view-mail-hd">
-                            <div class="view-mail-hrd">
-                                <h2>View Details #:9943990 </h2>
-                            </div>
-                            <p class="alert alert-info">User: Duke</p>
+                            
+                        <p class="alert alert-success"> 
+                            Salary: $90.08 <br>
+                            <span class="label label-primary">Your Bid: $57.00</span>
+                        </p>
+                           
                             <div class="view-ml-rl">
+                                 
                                 <p class="alert alert-warning">08:26 PM (2 hours ago)</p>
                                 
                             </div>
@@ -155,6 +242,7 @@
                             <p class="first-ph"><b>Subject: </b>Lorem Ipsum has been the industry's standard dummy text ever</p>
                             <p><b>Topic</b> <a href="#">British Enforcemnt Committee</a></p>
                             <p class="last-ph"><b>Date Created:</b> 15.03.2018</p>
+                            
                         </div>
 
                         <div class="view-mail-atn">

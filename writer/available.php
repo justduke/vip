@@ -123,11 +123,11 @@
                                 </div>
                                  </li>
                               
-									<li><button  data-placement="left" title="Home" class="btn"><a href="index.php?index"><i class="notika-icon notika-house"></i></a> </button></li>  </ul>
+									<li> <a href="index.php?index"><button  data-placement="left" title="Home" class="btn"><i class="notika-icon notika-house"></i> </button></a></li>  </ul>
 								</div>
-							</div>
-						</div>
-					</div>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</div>
